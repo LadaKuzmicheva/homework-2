@@ -1,0 +1,266 @@
+/* Навигация */
+nav {
+    background-color: rgb(208, 206, 206);
+    position: static
+}
+
+.navbar a {
+    font-size: larger;
+}
+
+/* Название мастерской */
+.text-name p {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+}
+
+/* Для карусели */
+.carousel-item img {
+    max-height: 600px;
+}
+
+/* Для промежуточной надписи */
+.text-second p {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px;
+    font-size: 35px;
+}
+
+.card {
+    text-decoration: none;
+}
+
+/* Для почему стоит выбрать нас */
+.why {
+    background-color: rgb(208, 206, 206);
+    margin-top: 40px;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.why col {
+    background-color: rgb(208, 206, 206);
+}
+
+.why h5 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.why p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Форма */
+.myform {
+    background-color: white;
+    width: 50%;
+    padding: 40px;
+    margin: 40px;
+    margin-left: 25%;
+    border-radius: 8%;
+    border: 5px solid;
+    border-color: rgb(208, 206, 206);
+}
+
+/* Футер */
+footer {
+    background-color: rgb(208, 206, 206);
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+footer h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Для сертификата */
+.card-body-certificate {
+    margin: 15px;
+    margin-top: 70px
+}
+
+.card-body-certificate h5 {
+    text-align: center;
+}
+
+.card-body-certificate p {
+    text-align: center;
+}
+
+.card-body-certificate a {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Для основной информации */
+
+.information {
+    background-color: white;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+
+.information img{
+    margin: 10px;
+    margin-right: 45px;
+    width: 470px;
+    max-width: 100%;
+    float: right;
+}
+
+.text-information {
+    text-align: left;
+    margin-top; 20px;
+    padding-top: 15px;
+}
+
+
+/* Для студии */
+
+.studio {
+    background-color: white;
+}
+
+.text-body p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-body h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.studio img {
+    margin: 40px;
+    margin-top: 5px;
+    width: 380px;
+    height: 500px;
+}
+
+/* Для вопрос&ответ */
+
+.faq {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.faq img {
+    margin: 100px;
+    margin-top: 10px;
+    width: 340px;
+    float: right;
+}
+
+details{
+    display:block;
+    background: #fff;
+    width:750px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    overflow:hidden;
+    margin: 10px;
+    margin-bottom: 1.5rem;
+    margin-left: 100px;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::-moz-list-bullet{list-style-type:none;}
+  summary::marker{display:none;} 
+  summary {
+     display:block;
+     padding: .3em .3em .3em 1.4em;
+     font-size:1.4em;
+     cursor: pointer;
+     position: relative;
+     border-bottom: 1px solid #e2e8f0;
+  }
+  summary:before {  
+    top: .4em;
+    left: .3em;
+    color: transparent;
+    background: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
+    width: 1em;
+    height: 1em;  
+    content: "";
+    position: absolute;
+    transition: transform .5s;
+  }
+  details[open] > summary:before {
+    transform: rotateZ(90deg);
+  }
+  summary ~ * {
+     padding: 0 2em 10px 2em;
+  }
+  details[open] summary ~ *{ 
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+  }
+  summary:focus {
+    outline:0;
+    box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3);
+  } 
+
+/* Для промежуточной надписи в классах */
+.text-third p {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px;
+    font-size: 35px;
+}
+
+/* Для конца */
+.end-text {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+  
+.smth {
+    display: inline-block;
+    width: 1000px;
+    height: 370px;
+    background-color: grey;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 170px;
+    margin: 13px;
+}
+
+.card img {
+    width: 310px;
+    height: 310px;
+}
